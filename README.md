@@ -1,8 +1,12 @@
 # Flask-Hello-World
 Flask web Development framework task with detailed explanation and easy. 
+
 Initially check that the flask is available or not, if it is not available the install it using pip install flask
+
 After it create a folder in and in that folder place a file with the .py extension 
+
 In .py file write the following code:
+
 
 from flask import Flask
 app=Flask(__name__)
