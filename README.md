@@ -9,12 +9,20 @@ In .py file write the following code:
 
 
 from flask import Flask
+
 app=Flask(__name__)
+
 @app.route("/")
+
 def Task_01():
      return "Hello World of Programmers"
+     
 
 Now copy open the folder copy the path and paste it into the CMD Command line
+
 Now set FLASK_APP=File_name_with_.py_extension
+
 Executer the last command that is flask run
+
 Now copy the URL and paste it into the browser your code will execute. 
+
